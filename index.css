@@ -15,7 +15,7 @@ html {
 
 #nav h1 a {
     font-family: 'Grtsk Giga', GrtskGiga-Bold;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     transition: letter-spacing 2s;
@@ -29,7 +29,7 @@ html {
     font-family: 'Grtsk Giga', GrtskGiga-Regular;
     font-size: 14px;
     position: relative;
-    left: 918px;
+    left: 968px;
 }
 
 #nav p a {
@@ -52,7 +52,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
-    width: 820px;
+    width: 920px;
 }
 
 .hero_img img {
@@ -69,10 +69,10 @@ html {
 .hero_text h1 {
     position: absolute;
     bottom: 1px;
-    left: 262px;
+    left: 292px;
     font-family: 'Grtsk Mega', GrtskMega-Bold;
     text-align: center;
-    font-size: 110px;
+    font-size: 130px;
     transition: letter-spacing 2s;
 }
 
@@ -101,10 +101,9 @@ html {
 
 #footer p a {
     color: white;
-    transition: all 2s, font-style 2s;
+    transition: letter-spacing 2s;
 }
 
 #footer p a:hover {
-    font-style: italic;
-    font-weight: bolder;
+    letter-spacing: 4px;
 }
