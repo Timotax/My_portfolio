@@ -1,0 +1,109 @@
+@import url("font(1)/stylesheet.css");
+@import url("font(2)/stylesheet.css");
+@import url("font(3)/stylesheet.css");
+html {
+    background-image: url(index_background1.jpg);
+    background-size: cover;
+    padding: 0 20px 0 20px;
+}
+
+#nav {
+    display: flex;
+    padding: 5px 0 0 0;
+    color: white;
+}
+
+#nav h1 a {
+    font-family: 'Grtsk Giga', GrtskGiga-Bold;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: letter-spacing 2s;
+}
+
+#nav h1 a:hover {
+    letter-spacing: -2px;
+}
+
+#nav p {
+    font-family: 'Grtsk Giga', GrtskGiga-Regular;
+    font-size: 14px;
+    position: relative;
+    left: 740px;
+}
+
+#nav p a {
+    color: white;
+    transition: all 2s, font-style 2s;
+}
+
+#nav p a:hover {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#hero {
+    align-self: center;
+    position: relative;
+}
+
+.hero_img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    width: 820px;
+}
+
+.hero_img img {
+    padding-right: 5px;
+    width: 399px;
+    height: 546px;
+}
+
+.hero_text {
+    color: white;
+    text-align: center;
+}
+
+.hero_text h1 {
+    position: absolute;
+    bottom: 1px;
+    left: 200px;
+    font-family: 'Grtsk Mega', GrtskMega-Bold;
+    text-align: center;
+    font-size: 110px;
+    transition: letter-spacing 2s;
+}
+
+.hero_text h1:hover {
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.hero_text p {
+    font-size: 15px;
+    font-family: 'Grtsk Mega', GrtskMega-Regular;
+}
+
+#footer {
+    display: flex;
+    padding: 5px 0 0 0;
+    color: white;
+}
+
+#footer p {
+    font-family: 'Grtsk Giga', GrtskGiga-Bold;
+    font-size: 14px;
+    position: relative;
+}
+
+#footer p a {
+    color: white;
+    transition: all 2s, font-style 2s;
+}
+
+#footer p a:hover {
+    font-style: italic;
+    font-weight: bolder;
+}
