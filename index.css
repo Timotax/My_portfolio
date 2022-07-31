@@ -2,8 +2,15 @@
 @import url("font(2)/stylesheet.css");
 @import url("font(3)/stylesheet.css");
 html {
+    background-color: rgb(25, 25, 26);
+}
+
+#body {
     background-image: url(index_background1.jpg);
     background-size: cover;
+}
+
+#coner {
     padding: 0 20px 0 20px;
 }
 
@@ -15,7 +22,7 @@ html {
 
 #nav h1 a {
     font-family: 'Grtsk Giga', GrtskGiga-Bold;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
     transition: letter-spacing 2s;
@@ -29,17 +36,25 @@ html {
     font-family: 'Grtsk Giga', GrtskGiga-Regular;
     font-size: 14px;
     position: relative;
-    left: 968px;
+    left: 740px;
 }
 
 #nav p a {
     color: white;
+    text-decoration: none;
     transition: all 2s, font-style 2s;
+}
+
+#nav p a span {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #nav p a:hover {
     font-style: italic;
     font-weight: bolder;
+    letter-spacing: 5px;
 }
 
 #hero {
@@ -52,13 +67,13 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
-    width: 920px;
+    width: 820px;
 }
 
 .hero_img img {
     padding-right: 5px;
-    width: 598px;
-    height: 819px;
+    width: 399px;
+    height: 546px;
 }
 
 .hero_text {
@@ -69,10 +84,10 @@ html {
 .hero_text h1 {
     position: absolute;
     bottom: 1px;
-    left: 292px;
+    left: 200px;
     font-family: 'Grtsk Mega', GrtskMega-Bold;
     text-align: center;
-    font-size: 130px;
+    font-size: 110px;
     transition: letter-spacing 2s;
 }
 
@@ -95,15 +110,122 @@ html {
 #footer p {
     font-family: 'Grtsk Giga', GrtskGiga-Bold;
     font-size: 14px;
-    font-weight: bold;
     position: relative;
 }
 
 #footer p a {
     color: white;
-    transition: letter-spacing 2s;
+    transition: all 2s, font-style 2s, letter-spacing 2s;
 }
 
 #footer p a:hover {
-    letter-spacing: 4px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.abm {
+    font-family: 'Grtsk Mega', GrtskMega-Bold;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+
+.abm span {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: rgb(25, 25, 26);
+    transition: color 1s;
+}
+
+.abm span a {
+    text-decoration: none;
+    color: rgb(25, 25, 26);
+    transition: all 1s;
+}
+
+.abm span a:hover {
+    color: white;
+}
+
+.abm span:hover {
+    color: white;
+}
+
+.hed {
+    font-family: 'Grtsk Mega', GrtskMega-Bold;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.sect {
+    font-size: 15px;
+    font-family: 'Grtsk Mega', GrtskMega-Regular;
+    text-align: center;
+    padding-top: -30px;
+}
+
+.sect span {
+    font-weight: bold;
+}
+
+.sect a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+.sect a:hover {
+    letter-spacing: 3px;
+}
+
+.img {
+    padding-left: 130px;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.img img {
+    vertical-align: top;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.insta {
+    width: 20%;
+    height: 20%;
+    margin: 0px;
+}
+
+.thin {
+    width: 27%;
+    height: 27%;
+    margin: 0px;
+}
+
+.wide {
+    width: 35%;
+    height: 35%;
+    margin: 0px;
+}
+
+.img figure {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: block;
+    padding-left: 140px;
+}
+
+.img figure img {
+    width: 70%;
+    height: 70%;
+    margin: 0px;
+}
+
+.img figure figcaption {
+    font-size: 15px;
+    font-family: 'Grtsk Mega', GrtskMega-Regular;
+    padding: 5px;
+    color: white;
 }
