@@ -14,6 +14,13 @@ html {
     padding: 0 20px 0 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #coner {
+        padding: 0 10px 0 10px;
+    }
+}
+
 #nav {
     display: flex;
     padding: 5px 0 0 0;
@@ -54,7 +61,25 @@ html {
 #nav p a:hover {
     font-style: italic;
     font-weight: bolder;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #nav h1 a {
+        font-family: 'Grtsk Giga', GrtskGiga-Bold;
+        font-size: 14px;
+        transition: letter-spacing 2s;
+    }
+    #nav p {
+        font-size: 10px;
+        position: relative;
+        left: 50px;
+        padding-top: 15px;
+    }
+    #nav p a:hover {
+        letter-spacing: 0;
+    }
 }
 
 #hero {
@@ -101,6 +126,37 @@ html {
     font-family: 'Grtsk Mega', GrtskMega-Regular;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #hero {
+        position: relative;
+    }
+    .hero_img span {
+        display: none;
+    }
+    .hero_img {
+        display: block;
+        padding-top: 5px;
+    }
+    .hero_img img {
+        display: block;
+        padding-left: 85px;
+        width: calc(399px/1.3);
+        height: calc(546px/1.3);
+    }
+    .hero_text h1 {
+        bottom: 70px;
+        left: 30px;
+        font-family: 'Grtsk Mega', GrtskMega-Bold;
+        text-align: center;
+        font-size: 50px;
+    }
+    .hero_text h1:hover {
+        text-align: center;
+        letter-spacing: 5px;
+    }
+}
+
 #footer {
     display: flex;
     padding: 5px 0 0 0;
@@ -122,6 +178,15 @@ html {
     font-style: italic;
     font-weight: bolder;
     letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #footer p a:hover {
+        font-style: italic;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
 }
 
 .abm {
@@ -149,6 +214,18 @@ html {
 
 .abm span:hover {
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .abm {
+        font-size: 33px;
+    }
+    .abm span {
+        text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
+        color: rgb(25, 25, 26);
+        transition: color 1s;
+    }
 }
 
 .hed {
@@ -210,22 +287,24 @@ html {
     margin: 0px;
 }
 
-.img figure {
-    padding-right: 10px;
-    padding-bottom: 10px;
-    display: block;
-    padding-left: 140px;
-}
-
-.img figure img {
-    width: 70%;
-    height: 70%;
-    margin: 0px;
-}
-
-.img figure figcaption {
-    font-size: 15px;
-    font-family: 'Grtsk Mega', GrtskMega-Regular;
-    padding: 5px;
-    color: white;
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .img {
+        padding-left: 40px;
+    }
+    .insta {
+        width: 30%;
+        height: 30%;
+        margin: 0px;
+    }
+    .thin {
+        width: 37%;
+        height: 37%;
+        margin: 0px;
+    }
+    .wide {
+        width: 45%;
+        height: 45%;
+        margin: 0px;
+    }
 }
